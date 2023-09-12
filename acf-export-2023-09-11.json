@@ -1,0 +1,2484 @@
+[
+    {
+        "key": "group_64e9948f23bc6",
+        "title": "Page Builders",
+        "fields": [
+            {
+                "key": "field_64e9948f6d80b",
+                "label": "Navbar",
+                "name": "navbar",
+                "aria-label": "",
+                "type": "flexible_content",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "show_in_graphql": 1,
+                "layouts": {
+                    "layout_64e994ab4e360": {
+                        "key": "layout_64e994ab4e360",
+                        "name": "navbar_stuffs",
+                        "label": "Navbar Stuffs",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_64e9952d9acd4",
+                                "label": "Navbar Logo",
+                                "name": "navbar_logo",
+                                "aria-label": "",
+                                "type": "image",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "return_format": "url",
+                                "library": "all",
+                                "min_width": "",
+                                "min_height": "",
+                                "min_size": "",
+                                "max_width": "",
+                                "max_height": "",
+                                "max_size": "",
+                                "mime_types": "",
+                                "preview_size": "medium"
+                            },
+                            {
+                                "key": "field_64e9953a9acd5",
+                                "label": "Navbar Menu",
+                                "name": "navbar_menu",
+                                "aria-label": "",
+                                "type": "repeater",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "layout": "table",
+                                "min": 0,
+                                "max": 0,
+                                "collapsed": "",
+                                "button_label": "Add Row",
+                                "rows_per_page": 20,
+                                "sub_fields": [
+                                    {
+                                        "key": "field_64e9954d9acd6",
+                                        "label": "Navbar Menu Button",
+                                        "name": "navbar_menu_button",
+                                        "aria-label": "",
+                                        "type": "button_group",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "show_in_graphql": 1,
+                                        "choices": {
+                                            "Home": "Home",
+                                            "About": "About",
+                                            "Services": "Services",
+                                            "Work": "Work"
+                                        },
+                                        "default_value": "",
+                                        "return_format": "value",
+                                        "allow_null": 0,
+                                        "layout": "horizontal",
+                                        "parent_repeater": "field_64e9953a9acd5"
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "field_64e9956b9acd7",
+                                "label": "Navbar Side Button",
+                                "name": "navbar_side_button",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "default_value": "Let's Start",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": ""
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    }
+                },
+                "min": "",
+                "max": "",
+                "button_label": "Add Row"
+            },
+            {
+                "key": "field_64e9ed49132d9",
+                "label": "Hero",
+                "name": "hero",
+                "aria-label": "",
+                "type": "flexible_content",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "show_in_graphql": 1,
+                "layouts": {
+                    "layout_64e9ed52dd5b0": {
+                        "key": "layout_64e9ed52dd5b0",
+                        "name": "hero_stuffs",
+                        "label": "Hero Stuffs",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_64e9ee5b132da",
+                                "label": "Hero Title 1",
+                                "name": "hero_title_1",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "default_value": "Let's build something",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": ""
+                            },
+                            {
+                                "key": "field_64e9eea2132db",
+                                "label": "Hero Title 2",
+                                "name": "hero_title_2",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "default_value": "Build new products, and accelerate digital teams",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": ""
+                            },
+                            {
+                                "key": "field_64e9eebb132dc",
+                                "label": "Hero Button",
+                                "name": "hero_button",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "default_value": "Free Consultation",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": ""
+                            },
+                            {
+                                "key": "field_64e9eecd132dd",
+                                "label": "Hero Bg Img",
+                                "name": "hero_bg_img",
+                                "aria-label": "",
+                                "type": "image",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "return_format": "url",
+                                "library": "all",
+                                "min_width": "",
+                                "min_height": "",
+                                "min_size": "",
+                                "max_width": "",
+                                "max_height": "",
+                                "max_size": "",
+                                "mime_types": "",
+                                "preview_size": "medium"
+                            },
+                            {
+                                "key": "field_64e9eedc132de",
+                                "label": "Hero front img",
+                                "name": "hero_front_img",
+                                "aria-label": "",
+                                "type": "image",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "return_format": "url",
+                                "library": "all",
+                                "min_width": "",
+                                "min_height": "",
+                                "min_size": "",
+                                "max_width": "",
+                                "max_height": "",
+                                "max_size": "",
+                                "mime_types": "",
+                                "preview_size": "medium"
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    }
+                },
+                "min": "",
+                "max": "",
+                "button_label": "Add Row"
+            },
+            {
+                "key": "field_64eb900e77291",
+                "label": "About",
+                "name": "about",
+                "aria-label": "",
+                "type": "flexible_content",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "show_in_graphql": 1,
+                "layouts": {
+                    "layout_64eb90312fc66": {
+                        "key": "layout_64eb90312fc66",
+                        "name": "about_stuffs",
+                        "label": "About Stuffs",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_64eb908577292",
+                                "label": "About Bg",
+                                "name": "about_bg",
+                                "aria-label": "",
+                                "type": "image",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "return_format": "url",
+                                "library": "all",
+                                "min_width": "",
+                                "min_height": "",
+                                "min_size": "",
+                                "max_width": "",
+                                "max_height": "",
+                                "max_size": "",
+                                "mime_types": "",
+                                "preview_size": "medium"
+                            },
+                            {
+                                "key": "field_64eb90a077293",
+                                "label": "About Left Img",
+                                "name": "about_left_img",
+                                "aria-label": "",
+                                "type": "image",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "return_format": "url",
+                                "library": "all",
+                                "min_width": "",
+                                "min_height": "",
+                                "min_size": "",
+                                "max_width": "",
+                                "max_height": "",
+                                "max_size": "",
+                                "mime_types": "",
+                                "preview_size": "medium"
+                            },
+                            {
+                                "key": "field_64eb90c177294",
+                                "label": "About Left Sub Img",
+                                "name": "about_left_",
+                                "aria-label": "",
+                                "type": "image",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "return_format": "url",
+                                "library": "all",
+                                "min_width": "",
+                                "min_height": "",
+                                "min_size": "",
+                                "max_width": "",
+                                "max_height": "",
+                                "max_size": "",
+                                "mime_types": "",
+                                "preview_size": "medium"
+                            },
+                            {
+                                "key": "field_64eb90d677295",
+                                "label": "About Left Sub Text",
+                                "name": "about_left_sub_text",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "default_value": "200k+ Users on our platforms",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": ""
+                            },
+                            {
+                                "key": "field_64eb910077296",
+                                "label": "About Right Text 1",
+                                "name": "about_right_text_1",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "default_value": "About Company",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": ""
+                            },
+                            {
+                                "key": "field_64eb911b77297",
+                                "label": "About Right Text 2",
+                                "name": "about_right_text_2",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "default_value": "We build powerful digital products and experiences.",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": ""
+                            },
+                            {
+                                "key": "field_64eb912f77298",
+                                "label": "About Right Text 3",
+                                "name": "about_right_text_3",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "default_value": "We manage all the technology so you can concentrate on your strengths",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": ""
+                            },
+                            {
+                                "key": "field_64eb914177299",
+                                "label": "About Right Text 4",
+                                "name": "about_right_text_4",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "default_value": "Our team of 100+ experienced software engineers, developers, UX architects, and designers like to produce impactful software. We create software that is used by millions of users in sectors spanning education, technology, healthcare, travel, and beyond.",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": ""
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    }
+                },
+                "min": "",
+                "max": "",
+                "button_label": "Add Row"
+            },
+            {
+                "key": "field_64eb92e6afd99",
+                "label": "Services",
+                "name": "services",
+                "aria-label": "",
+                "type": "flexible_content",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "show_in_graphql": 1,
+                "layouts": {
+                    "layout_64eb92eba070f": {
+                        "key": "layout_64eb92eba070f",
+                        "name": "services_stuff",
+                        "label": "Services Stuff",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_64eb92f8afd9a",
+                                "label": "Service Text 1",
+                                "name": "service_text_1",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "default_value": "List of services we provide",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": ""
+                            },
+                            {
+                                "key": "field_64eb9310afd9b",
+                                "label": "Service Text 2",
+                                "name": "service_text_2",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "default_value": "What we’re offering",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": ""
+                            },
+                            {
+                                "key": "field_64eb932fafd9c",
+                                "label": "Service Btn",
+                                "name": "service_btn",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "default_value": "Explore More",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": ""
+                            },
+                            {
+                                "key": "field_64eb934aafd9d",
+                                "label": "Services Card",
+                                "name": "services_card",
+                                "aria-label": "",
+                                "type": "repeater",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "layout": "table",
+                                "min": 0,
+                                "max": 0,
+                                "collapsed": "",
+                                "button_label": "Add Row",
+                                "rows_per_page": 20,
+                                "sub_fields": [
+                                    {
+                                        "key": "field_64eb9368afd9e",
+                                        "label": "Service Card Img",
+                                        "name": "service",
+                                        "aria-label": "",
+                                        "type": "image",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "show_in_graphql": 1,
+                                        "return_format": "url",
+                                        "library": "all",
+                                        "min_width": "",
+                                        "min_height": "",
+                                        "min_size": "",
+                                        "max_width": "",
+                                        "max_height": "",
+                                        "max_size": "",
+                                        "mime_types": "",
+                                        "preview_size": "medium",
+                                        "parent_repeater": "field_64eb934aafd9d"
+                                    },
+                                    {
+                                        "key": "field_64eb93b7afd9f",
+                                        "label": "Service Card Title",
+                                        "name": "service_card_title",
+                                        "aria-label": "",
+                                        "type": "text",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "show_in_graphql": 1,
+                                        "default_value": "",
+                                        "maxlength": "",
+                                        "placeholder": "",
+                                        "prepend": "",
+                                        "append": "",
+                                        "parent_repeater": "field_64eb934aafd9d"
+                                    },
+                                    {
+                                        "key": "field_64eb93d2afda0",
+                                        "label": "Service Card Description",
+                                        "name": "service_card_description",
+                                        "aria-label": "",
+                                        "type": "text",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "show_in_graphql": 1,
+                                        "default_value": "",
+                                        "maxlength": "",
+                                        "placeholder": "",
+                                        "prepend": "",
+                                        "append": "",
+                                        "parent_repeater": "field_64eb934aafd9d"
+                                    }
+                                ]
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    }
+                },
+                "min": "",
+                "max": "",
+                "button_label": "Add Row"
+            },
+            {
+                "key": "field_64ec4046b9dad",
+                "label": "Case Studies",
+                "name": "case_studies",
+                "aria-label": "",
+                "type": "flexible_content",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "show_in_graphql": 1,
+                "layouts": {
+                    "layout_64ec404b6b7eb": {
+                        "key": "layout_64ec404b6b7eb",
+                        "name": "case_studies_stuff",
+                        "label": "Case Studies Stuff",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_64ec4060b9dae",
+                                "label": "Case Studies Text 1",
+                                "name": "case_studies_text_1",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "default_value": "Case Studies",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": ""
+                            },
+                            {
+                                "key": "field_64ec4077b9daf",
+                                "label": "Case Studies Text 2",
+                                "name": "case_studies_text_2",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "default_value": "Our Projects make us Proud",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": ""
+                            },
+                            {
+                                "key": "field_64ec4093b9db0",
+                                "label": "Case Studies Image Card",
+                                "name": "case_studies_image_card",
+                                "aria-label": "",
+                                "type": "repeater",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "layout": "table",
+                                "min": 0,
+                                "max": 0,
+                                "collapsed": "",
+                                "button_label": "Add Row",
+                                "rows_per_page": 20,
+                                "sub_fields": [
+                                    {
+                                        "key": "field_64ec40fbb9db4",
+                                        "label": "Case Studies Card Image",
+                                        "name": "case_studies_card_image",
+                                        "aria-label": "",
+                                        "type": "image",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "show_in_graphql": 1,
+                                        "return_format": "url",
+                                        "library": "all",
+                                        "min_width": "",
+                                        "min_height": "",
+                                        "min_size": "",
+                                        "max_width": "",
+                                        "max_height": "",
+                                        "max_size": "",
+                                        "mime_types": "",
+                                        "preview_size": "medium",
+                                        "parent_repeater": "field_64ec4093b9db0"
+                                    },
+                                    {
+                                        "key": "field_64ec4115b9db5",
+                                        "label": "Case Studies Card Title",
+                                        "name": "case_studies_card_title",
+                                        "aria-label": "",
+                                        "type": "text",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "show_in_graphql": 1,
+                                        "default_value": "Pellentesque ut",
+                                        "maxlength": "",
+                                        "placeholder": "",
+                                        "prepend": "",
+                                        "append": "",
+                                        "parent_repeater": "field_64ec4093b9db0"
+                                    },
+                                    {
+                                        "key": "field_64ec42518aa1c",
+                                        "label": "Case Studies Card Text 2",
+                                        "name": "case_studies_card_text_2",
+                                        "aria-label": "",
+                                        "type": "text",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "show_in_graphql": 1,
+                                        "default_value": "Massa gravida accumsan quam nibh arcu. Id mauris enim, nibh lacus tristique mauris. Ut cursus lobortis laoreet sed leo tincidunt sollicitudin.",
+                                        "maxlength": "",
+                                        "placeholder": "",
+                                        "prepend": "",
+                                        "append": "",
+                                        "parent_repeater": "field_64ec4093b9db0"
+                                    },
+                                    {
+                                        "key": "field_64ec42678aa1d",
+                                        "label": "Case Studies Card Btn",
+                                        "name": "case_studies_card_btn",
+                                        "aria-label": "",
+                                        "type": "text",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "show_in_graphql": 1,
+                                        "default_value": "Learn More",
+                                        "maxlength": "",
+                                        "placeholder": "",
+                                        "prepend": "",
+                                        "append": "",
+                                        "parent_repeater": "field_64ec4093b9db0"
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "field_64ec429c8aa1e",
+                                "label": "Case Studies Button",
+                                "name": "case_studies_button",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "default_value": "Explore More",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": ""
+                            },
+                            {
+                                "key": "field_64ec46a1a195b",
+                                "label": "Case Studies Bg Img",
+                                "name": "case_studies_bg_img",
+                                "aria-label": "",
+                                "type": "image",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "return_format": "url",
+                                "library": "all",
+                                "min_width": "",
+                                "min_height": "",
+                                "min_size": "",
+                                "max_width": "",
+                                "max_height": "",
+                                "max_size": "",
+                                "mime_types": "",
+                                "preview_size": "medium"
+                            },
+                            {
+                                "key": "field_64ec49797d84d",
+                                "label": "Case Studies Navbar",
+                                "name": "case_studies_navbar",
+                                "aria-label": "",
+                                "type": "repeater",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "layout": "table",
+                                "min": 0,
+                                "max": 0,
+                                "collapsed": "",
+                                "button_label": "Add Row",
+                                "rows_per_page": 20,
+                                "sub_fields": [
+                                    {
+                                        "key": "field_64ec49887d84e",
+                                        "label": "Use Case Navbar Text",
+                                        "name": "use_case_navbar_text",
+                                        "aria-label": "",
+                                        "type": "text",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "show_in_graphql": 1,
+                                        "default_value": "",
+                                        "maxlength": "",
+                                        "placeholder": "",
+                                        "prepend": "",
+                                        "append": "",
+                                        "parent_repeater": "field_64ec49797d84d"
+                                    }
+                                ]
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    }
+                },
+                "min": "",
+                "max": "",
+                "button_label": "Add Row"
+            },
+            {
+                "key": "field_64ec4a3d44245",
+                "label": "Case Studies Count",
+                "name": "case_studies_count",
+                "aria-label": "",
+                "type": "flexible_content",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "show_in_graphql": 1,
+                "layouts": {
+                    "layout_64ec4a3fbe3df": {
+                        "key": "layout_64ec4a3fbe3df",
+                        "name": "case_studies_count_stuff",
+                        "label": "Case Studies Count Stuff",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_64ec4a5244246",
+                                "label": "Case Studies Count Left",
+                                "name": "case_studies_count_left",
+                                "aria-label": "",
+                                "type": "flexible_content",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "layouts": {
+                                    "layout_64ec4a5abfec6": {
+                                        "key": "layout_64ec4a5abfec6",
+                                        "name": "case_studies_count_left_stuffs",
+                                        "label": "Case Studies Count Left Stuffs",
+                                        "display": "block",
+                                        "sub_fields": [
+                                            {
+                                                "key": "field_64ec4a8044247",
+                                                "label": "Case Studies Count Left Text 1",
+                                                "name": "case_studies_count_left_text_1",
+                                                "aria-label": "",
+                                                "type": "text",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "show_in_graphql": 1,
+                                                "default_value": "05 Years' experience in it",
+                                                "maxlength": "",
+                                                "placeholder": "",
+                                                "prepend": "",
+                                                "append": ""
+                                            },
+                                            {
+                                                "key": "field_64ec4ab744248",
+                                                "label": "Case Studies Count Left Text 2",
+                                                "name": "case_studies_count_left_text_2",
+                                                "aria-label": "",
+                                                "type": "text",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "show_in_graphql": 1,
+                                                "default_value": "Learn more about our Success Stories",
+                                                "maxlength": "",
+                                                "placeholder": "",
+                                                "prepend": "",
+                                                "append": ""
+                                            }
+                                        ],
+                                        "min": "",
+                                        "max": ""
+                                    }
+                                },
+                                "min": "",
+                                "max": "",
+                                "button_label": "Add Row"
+                            },
+                            {
+                                "key": "field_64ec4b0a4424b",
+                                "label": "Case Studies Right",
+                                "name": "case_studies_right",
+                                "aria-label": "",
+                                "type": "flexible_content",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "layouts": {
+                                    "layout_64ec4b142af87": {
+                                        "key": "layout_64ec4b142af87",
+                                        "name": "count_studies_right_stuffs",
+                                        "label": "Count Studies Right Stuffs",
+                                        "display": "block",
+                                        "sub_fields": [
+                                            {
+                                                "key": "field_64ec4b244424c",
+                                                "label": "Case Studies Count Right",
+                                                "name": "case_studies_count_right",
+                                                "aria-label": "",
+                                                "type": "repeater",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "show_in_graphql": 1,
+                                                "layout": "table",
+                                                "min": 0,
+                                                "max": 0,
+                                                "collapsed": "",
+                                                "button_label": "Add Row",
+                                                "rows_per_page": 20,
+                                                "sub_fields": [
+                                                    {
+                                                        "key": "field_64ec4b844424d",
+                                                        "label": "Use Case Right Count",
+                                                        "name": "use_case_right_count",
+                                                        "aria-label": "",
+                                                        "type": "text",
+                                                        "instructions": "",
+                                                        "required": 0,
+                                                        "conditional_logic": 0,
+                                                        "wrapper": {
+                                                            "width": "",
+                                                            "class": "",
+                                                            "id": ""
+                                                        },
+                                                        "show_in_graphql": 1,
+                                                        "default_value": "",
+                                                        "maxlength": "",
+                                                        "placeholder": "",
+                                                        "prepend": "",
+                                                        "append": "",
+                                                        "parent_repeater": "field_64ec4b244424c"
+                                                    },
+                                                    {
+                                                        "key": "field_64ec4b9c4424e",
+                                                        "label": "Use Case Right Count Title",
+                                                        "name": "use_case_right_count_title",
+                                                        "aria-label": "",
+                                                        "type": "text",
+                                                        "instructions": "",
+                                                        "required": 0,
+                                                        "conditional_logic": 0,
+                                                        "wrapper": {
+                                                            "width": "",
+                                                            "class": "",
+                                                            "id": ""
+                                                        },
+                                                        "show_in_graphql": 1,
+                                                        "default_value": "",
+                                                        "maxlength": "",
+                                                        "placeholder": "",
+                                                        "prepend": "",
+                                                        "append": "",
+                                                        "parent_repeater": "field_64ec4b244424c"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "min": "",
+                                        "max": ""
+                                    }
+                                },
+                                "min": "",
+                                "max": "",
+                                "button_label": "Add Row"
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    }
+                },
+                "min": "",
+                "max": "",
+                "button_label": "Add Row"
+            },
+            {
+                "key": "field_64ec4c5262f15",
+                "label": "Posts & Articles",
+                "name": "posts_&_articles",
+                "aria-label": "",
+                "type": "flexible_content",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "show_in_graphql": 1,
+                "layouts": {
+                    "layout_64ec4c5c914eb": {
+                        "key": "layout_64ec4c5c914eb",
+                        "name": "posts_&_articles_stuffs",
+                        "label": "Posts & Articles Stuffs",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_64ec4eeb59461",
+                                "label": "Posts & Articles Text 1",
+                                "name": "posts_&_articles_text_1",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "default_value": "Our Blog",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": ""
+                            },
+                            {
+                                "key": "field_64ec4f0059462",
+                                "label": "Posts & Articles Text 2",
+                                "name": "posts_&_articles_text_2",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "default_value": "Posts & Articles",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": ""
+                            },
+                            {
+                                "key": "field_64ec4f1259463",
+                                "label": "Posts & Articles",
+                                "name": "posts_&_articles",
+                                "aria-label": "",
+                                "type": "repeater",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "layout": "table",
+                                "min": 0,
+                                "max": 0,
+                                "collapsed": "",
+                                "button_label": "Add Row",
+                                "rows_per_page": 20,
+                                "sub_fields": [
+                                    {
+                                        "key": "field_64ec4f3859464",
+                                        "label": "Posts & Articles Img",
+                                        "name": "posts_&_articles_img",
+                                        "aria-label": "",
+                                        "type": "image",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "show_in_graphql": 1,
+                                        "return_format": "url",
+                                        "library": "all",
+                                        "min_width": "",
+                                        "min_height": "",
+                                        "min_size": "",
+                                        "max_width": "",
+                                        "max_height": "",
+                                        "max_size": "",
+                                        "mime_types": "",
+                                        "preview_size": "medium",
+                                        "parent_repeater": "field_64ec4f1259463"
+                                    },
+                                    {
+                                        "key": "field_64ec4f4a59465",
+                                        "label": "Posts & Article Img Title",
+                                        "name": "posts_&_article_img_title",
+                                        "aria-label": "",
+                                        "type": "text",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "show_in_graphql": 1,
+                                        "default_value": "Lorem ipsum dolor",
+                                        "maxlength": "",
+                                        "placeholder": "",
+                                        "prepend": "",
+                                        "append": "",
+                                        "parent_repeater": "field_64ec4f1259463"
+                                    },
+                                    {
+                                        "key": "field_64ec4f8459466",
+                                        "label": "Posts & Articles Img Description",
+                                        "name": "posts_&_articles_img_description",
+                                        "aria-label": "",
+                                        "type": "text",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "show_in_graphql": 1,
+                                        "default_value": "Nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim.",
+                                        "maxlength": "",
+                                        "placeholder": "",
+                                        "prepend": "",
+                                        "append": "",
+                                        "parent_repeater": "field_64ec4f1259463"
+                                    },
+                                    {
+                                        "key": "field_64ec4f9659467",
+                                        "label": "Posts & Articles Img Btn",
+                                        "name": "posts_&_articles_img_btn",
+                                        "aria-label": "",
+                                        "type": "text",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "show_in_graphql": 1,
+                                        "default_value": "Learn More",
+                                        "maxlength": "",
+                                        "placeholder": "",
+                                        "prepend": "",
+                                        "append": "",
+                                        "parent_repeater": "field_64ec4f1259463"
+                                    }
+                                ]
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    }
+                },
+                "min": "",
+                "max": "",
+                "button_label": "Add Row"
+            },
+            {
+                "key": "field_64ec548946a82",
+                "label": "Technologies",
+                "name": "technologies",
+                "aria-label": "",
+                "type": "flexible_content",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "show_in_graphql": 1,
+                "layouts": {
+                    "layout_64ec5491f36f0": {
+                        "key": "layout_64ec5491f36f0",
+                        "name": "technologies_stuff",
+                        "label": "Technologies Stuff",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_64ec549a46a83",
+                                "label": "Technologies Title",
+                                "name": "technologies_title",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "default_value": "What We Do",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": ""
+                            },
+                            {
+                                "key": "field_64ec54ac46a84",
+                                "label": "Technologies Title 1",
+                                "name": "technologies",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "default_value": "Technologies We Work With",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": ""
+                            },
+                            {
+                                "key": "field_64ec54c246a85",
+                                "label": "Technologies Title 2",
+                                "name": "technologies_title_2",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "default_value": "With every passing day, technology is changing at a rapid pace. New technologies bring new development challenges. Our expert team members keep an eye on the latest innovations taking place around the world and adopt them to develop high-end applications for our clients.",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": ""
+                            },
+                            {
+                                "key": "field_64ec54d146a86",
+                                "label": "Technologies Btns Repeatator",
+                                "name": "technologies_btns_repeatator",
+                                "aria-label": "",
+                                "type": "repeater",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "layout": "table",
+                                "min": 0,
+                                "max": 0,
+                                "collapsed": "",
+                                "button_label": "Add Row",
+                                "rows_per_page": 20,
+                                "sub_fields": [
+                                    {
+                                        "key": "field_64ec54e446a87",
+                                        "label": "Technologies Btn",
+                                        "name": "technologies_btn",
+                                        "aria-label": "",
+                                        "type": "text",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "show_in_graphql": 1,
+                                        "default_value": "",
+                                        "maxlength": "",
+                                        "placeholder": "",
+                                        "prepend": "",
+                                        "append": "",
+                                        "parent_repeater": "field_64ec54d146a86"
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "field_64ec550246a88",
+                                "label": "Technologies Img Repeatators",
+                                "name": "technologies_img_repeatators",
+                                "aria-label": "",
+                                "type": "repeater",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "layout": "table",
+                                "min": 0,
+                                "max": 0,
+                                "collapsed": "",
+                                "button_label": "Add Row",
+                                "rows_per_page": 20,
+                                "sub_fields": [
+                                    {
+                                        "key": "field_64ec559a0bb06",
+                                        "label": "Technologies Img",
+                                        "name": "technologies_img",
+                                        "aria-label": "",
+                                        "type": "image",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "show_in_graphql": 1,
+                                        "return_format": "url",
+                                        "library": "all",
+                                        "min_width": "",
+                                        "min_height": "",
+                                        "min_size": "",
+                                        "max_width": "",
+                                        "max_height": "",
+                                        "max_size": "",
+                                        "mime_types": "",
+                                        "preview_size": "medium",
+                                        "parent_repeater": "field_64ec550246a88"
+                                    }
+                                ]
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    }
+                },
+                "min": "",
+                "max": "",
+                "button_label": "Add Row"
+            },
+            {
+                "key": "field_64ec56a73cc47",
+                "label": "Testimonials",
+                "name": "testimonials",
+                "aria-label": "",
+                "type": "flexible_content",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "show_in_graphql": 1,
+                "layouts": {
+                    "layout_64ec56ab5c938": {
+                        "key": "layout_64ec56ab5c938",
+                        "name": "testimonials_stuffs",
+                        "label": "Testimonials Stuffs",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_64ec56bb3cc48",
+                                "label": "Testimonials Title",
+                                "name": "testimonials_title",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "default_value": "Testimonials",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": ""
+                            },
+                            {
+                                "key": "field_64ec56ce3cc49",
+                                "label": "Testimonials Text 1",
+                                "name": "testimonials_text_1",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "default_value": "Customer feedback",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": ""
+                            },
+                            {
+                                "key": "field_64ec57132bbdf",
+                                "label": "Testimonials Card",
+                                "name": "testimonials_card",
+                                "aria-label": "",
+                                "type": "repeater",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "layout": "table",
+                                "min": 0,
+                                "max": 0,
+                                "collapsed": "",
+                                "button_label": "Add Row",
+                                "rows_per_page": 20,
+                                "sub_fields": [
+                                    {
+                                        "key": "field_64ec571f2bbe0",
+                                        "label": "Testimonials Card Description",
+                                        "name": "testimonials_card_description",
+                                        "aria-label": "",
+                                        "type": "text",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "show_in_graphql": 1,
+                                        "default_value": "Working with them has been great. They      communicates                            very well, and understood all of the requirements I had. They also suggested changes that improved upon my design. They are very prompt with delivery, They actually delivered earlier than what I was expecting. They delivered a quality product and more than what was expected of her. I highly recommend them as your next web developer. A+",
+                                        "maxlength": "",
+                                        "placeholder": "",
+                                        "prepend": "",
+                                        "append": "",
+                                        "parent_repeater": "field_64ec57132bbdf"
+                                    },
+                                    {
+                                        "key": "field_64ec57372bbe1",
+                                        "label": "Testimonials logo Img",
+                                        "name": "testimonials_logo_img",
+                                        "aria-label": "",
+                                        "type": "image",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "show_in_graphql": 1,
+                                        "return_format": "url",
+                                        "library": "all",
+                                        "min_width": "",
+                                        "min_height": "",
+                                        "min_size": "",
+                                        "max_width": "",
+                                        "max_height": "",
+                                        "max_size": "",
+                                        "mime_types": "",
+                                        "preview_size": "medium",
+                                        "parent_repeater": "field_64ec57132bbdf"
+                                    },
+                                    {
+                                        "key": "field_64ec574b2bbe2",
+                                        "label": "Testimonials Logo Title",
+                                        "name": "testimonials_logo_title",
+                                        "aria-label": "",
+                                        "type": "text",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "show_in_graphql": 1,
+                                        "default_value": "Jenny Wilson",
+                                        "maxlength": "",
+                                        "placeholder": "",
+                                        "prepend": "",
+                                        "append": "",
+                                        "parent_repeater": "field_64ec57132bbdf"
+                                    },
+                                    {
+                                        "key": "field_64ec57602bbe3",
+                                        "label": "Testimonials Logo Subtitle",
+                                        "name": "testimonials_logo_subtitle",
+                                        "aria-label": "",
+                                        "type": "text",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "show_in_graphql": 1,
+                                        "default_value": "Vice President",
+                                        "maxlength": "",
+                                        "placeholder": "",
+                                        "prepend": "",
+                                        "append": "",
+                                        "parent_repeater": "field_64ec57132bbdf"
+                                    }
+                                ]
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    }
+                },
+                "min": "",
+                "max": "",
+                "button_label": "Add Row"
+            },
+            {
+                "key": "field_64ec57ef35ed0",
+                "label": "Ready",
+                "name": "ready",
+                "aria-label": "",
+                "type": "flexible_content",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "show_in_graphql": 1,
+                "layouts": {
+                    "layout_64ec57f1c648d": {
+                        "key": "layout_64ec57f1c648d",
+                        "name": "ready_stuffs",
+                        "label": "Ready Stuffs",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_64ec580435ed1",
+                                "label": "Ready Title 1",
+                                "name": "ready_title_1",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "default_value": "Ready for your next project?",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": ""
+                            },
+                            {
+                                "key": "field_64ec581335ed2",
+                                "label": "Ready Title 2",
+                                "name": "ready_title_2",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "default_value": "Rhoncus morbi et augue nec, in id ullamcorper at sit.",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": ""
+                            },
+                            {
+                                "key": "field_64ec582135ed3",
+                                "label": "Ready Button",
+                                "name": "ready_button",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "default_value": "Request Demo",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": ""
+                            },
+                            {
+                                "key": "field_64eee3b38593b",
+                                "label": "Ready Bg Img",
+                                "name": "ready_bg_img",
+                                "aria-label": "",
+                                "type": "image",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "return_format": "url",
+                                "library": "all",
+                                "min_width": "",
+                                "min_height": "",
+                                "min_size": "",
+                                "max_width": "",
+                                "max_height": "",
+                                "max_size": "",
+                                "mime_types": "",
+                                "preview_size": "medium"
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    }
+                },
+                "min": "",
+                "max": "",
+                "button_label": "Add Row"
+            },
+            {
+                "key": "field_64ec5e499ba56",
+                "label": "Affiliation",
+                "name": "affiliation",
+                "aria-label": "",
+                "type": "flexible_content",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "show_in_graphql": 1,
+                "layouts": {
+                    "layout_64ec5e4dbcfdf": {
+                        "key": "layout_64ec5e4dbcfdf",
+                        "name": "affiliation_stuffs",
+                        "label": "Affiliation Stuffs",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_64ec5e5b9ba57",
+                                "label": "Affiliation Image",
+                                "name": "affiliation_image",
+                                "aria-label": "",
+                                "type": "repeater",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "layout": "table",
+                                "min": 0,
+                                "max": 0,
+                                "collapsed": "",
+                                "button_label": "Add Row",
+                                "rows_per_page": 20,
+                                "sub_fields": [
+                                    {
+                                        "key": "field_64ec5e669ba58",
+                                        "label": "Affiliation img",
+                                        "name": "affiliation_img",
+                                        "aria-label": "",
+                                        "type": "image",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "show_in_graphql": 1,
+                                        "return_format": "url",
+                                        "library": "all",
+                                        "min_width": "",
+                                        "min_height": "",
+                                        "min_size": "",
+                                        "max_width": "",
+                                        "max_height": "",
+                                        "max_size": "",
+                                        "mime_types": "",
+                                        "preview_size": "medium",
+                                        "parent_repeater": "field_64ec5e5b9ba57"
+                                    }
+                                ]
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    }
+                },
+                "min": "",
+                "max": "",
+                "button_label": "Add Row"
+            },
+            {
+                "key": "field_64ec606a706b2",
+                "label": "Footer",
+                "name": "footer",
+                "aria-label": "",
+                "type": "flexible_content",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "show_in_graphql": 1,
+                "layouts": {
+                    "layout_64ec606cbe8d9": {
+                        "key": "layout_64ec606cbe8d9",
+                        "name": "footer_stuffs",
+                        "label": "Footer Stuffs",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_64ec619a706b7",
+                                "label": "Footer 1st",
+                                "name": "footer_1st",
+                                "aria-label": "",
+                                "type": "flexible_content",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "layouts": {
+                                    "layout_64ec619d57f36": {
+                                        "key": "layout_64ec619d57f36",
+                                        "name": "footer_1st_stuffs",
+                                        "label": "Footer 1st Stuffs",
+                                        "display": "block",
+                                        "sub_fields": [
+                                            {
+                                                "key": "field_64ec607a706b3",
+                                                "label": "Footer logo",
+                                                "name": "footer_logo",
+                                                "aria-label": "",
+                                                "type": "image",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "show_in_graphql": 1,
+                                                "return_format": "",
+                                                "library": "",
+                                                "min_width": "",
+                                                "min_height": "",
+                                                "min_size": "",
+                                                "max_width": "",
+                                                "max_height": "",
+                                                "max_size": "",
+                                                "mime_types": "",
+                                                "preview_size": "medium"
+                                            },
+                                            {
+                                                "key": "field_64ec60a7706b4",
+                                                "label": "Footer Logo Text",
+                                                "name": "footer_logo_text",
+                                                "aria-label": "",
+                                                "type": "text",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "show_in_graphql": 1,
+                                                "default_value": "Leading the Digital Revolution Where innovation meets excellence",
+                                                "maxlength": "",
+                                                "placeholder": "",
+                                                "prepend": "",
+                                                "append": ""
+                                            }
+                                        ],
+                                        "min": "",
+                                        "max": ""
+                                    }
+                                },
+                                "min": "",
+                                "max": "",
+                                "button_label": "Add Row"
+                            },
+                            {
+                                "key": "field_64ec61d1706b8",
+                                "label": "Footer 2nd",
+                                "name": "footer_2nd",
+                                "aria-label": "",
+                                "type": "flexible_content",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "layouts": {
+                                    "layout_64ec61d2d28ea": {
+                                        "key": "layout_64ec61d2d28ea",
+                                        "name": "footer_2nd_stuffs",
+                                        "label": "Footer 2nd Stuffs",
+                                        "display": "block",
+                                        "sub_fields": [
+                                            {
+                                                "key": "field_64ec61f8706b9",
+                                                "label": "Footer 2nd Title",
+                                                "name": "footer_2nd_title",
+                                                "aria-label": "",
+                                                "type": "text",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "show_in_graphql": 1,
+                                                "default_value": "Useful Links",
+                                                "maxlength": "",
+                                                "placeholder": "",
+                                                "prepend": "",
+                                                "append": ""
+                                            },
+                                            {
+                                                "key": "field_64ec620e706ba",
+                                                "label": "Footer 2nd Links",
+                                                "name": "footer_2nd_links",
+                                                "aria-label": "",
+                                                "type": "repeater",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "show_in_graphql": 1,
+                                                "layout": "table",
+                                                "min": 0,
+                                                "max": 0,
+                                                "collapsed": "",
+                                                "button_label": "Add Row",
+                                                "rows_per_page": 20,
+                                                "sub_fields": [
+                                                    {
+                                                        "key": "field_64ec6223706bb",
+                                                        "label": "Links",
+                                                        "name": "links",
+                                                        "aria-label": "",
+                                                        "type": "text",
+                                                        "instructions": "",
+                                                        "required": 0,
+                                                        "conditional_logic": 0,
+                                                        "wrapper": {
+                                                            "width": "",
+                                                            "class": "",
+                                                            "id": ""
+                                                        },
+                                                        "show_in_graphql": 1,
+                                                        "default_value": "",
+                                                        "maxlength": "",
+                                                        "placeholder": "",
+                                                        "prepend": "",
+                                                        "append": "",
+                                                        "parent_repeater": "field_64ec620e706ba"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "min": "",
+                                        "max": ""
+                                    }
+                                },
+                                "min": "",
+                                "max": "",
+                                "button_label": "Add Row"
+                            },
+                            {
+                                "key": "field_64ec62628f506",
+                                "label": "Footer 3rd",
+                                "name": "footer_3rd",
+                                "aria-label": "",
+                                "type": "flexible_content",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "layouts": {
+                                    "layout_64ec61d2d28ea": {
+                                        "key": "layout_64ec61d2d28ea",
+                                        "name": "footer_3rd_stuffs",
+                                        "label": "Footer 3rd Stuffs",
+                                        "display": "block",
+                                        "sub_fields": [
+                                            {
+                                                "key": "field_64ec62628f507",
+                                                "label": "Footer 3rd Title",
+                                                "name": "footer_3rd_title",
+                                                "aria-label": "",
+                                                "type": "text",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "show_in_graphql": 1,
+                                                "default_value": "Our Services",
+                                                "maxlength": "",
+                                                "placeholder": "",
+                                                "prepend": "",
+                                                "append": ""
+                                            },
+                                            {
+                                                "key": "field_64ec62628f508",
+                                                "label": "Footer 3rd Btns",
+                                                "name": "footer_3rd_btns",
+                                                "aria-label": "",
+                                                "type": "repeater",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "show_in_graphql": 1,
+                                                "layout": "table",
+                                                "min": 0,
+                                                "max": 0,
+                                                "collapsed": "",
+                                                "button_label": "Add Row",
+                                                "rows_per_page": 20,
+                                                "sub_fields": [
+                                                    {
+                                                        "key": "field_64ec62628f509",
+                                                        "label": "Btns",
+                                                        "name": "btns",
+                                                        "aria-label": "",
+                                                        "type": "text",
+                                                        "instructions": "",
+                                                        "required": 0,
+                                                        "conditional_logic": 0,
+                                                        "wrapper": {
+                                                            "width": "",
+                                                            "class": "",
+                                                            "id": ""
+                                                        },
+                                                        "show_in_graphql": 1,
+                                                        "default_value": "",
+                                                        "maxlength": "",
+                                                        "placeholder": "",
+                                                        "prepend": "",
+                                                        "append": "",
+                                                        "parent_repeater": "field_64ec62628f508"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "min": "",
+                                        "max": ""
+                                    }
+                                },
+                                "min": "",
+                                "max": "",
+                                "button_label": "Add Row"
+                            },
+                            {
+                                "key": "field_64ec62bd57b9e",
+                                "label": "Footer 4th",
+                                "name": "footer_4th",
+                                "aria-label": "",
+                                "type": "flexible_content",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "layouts": {
+                                    "layout_64ec61d2d28ea": {
+                                        "key": "layout_64ec61d2d28ea",
+                                        "name": "footer_4th_stuffs",
+                                        "label": "Footer 4th Stuffs",
+                                        "display": "block",
+                                        "sub_fields": [
+                                            {
+                                                "key": "field_64ec62be57b9f",
+                                                "label": "Footer 4th Title",
+                                                "name": "footer_4th_title",
+                                                "aria-label": "",
+                                                "type": "text",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "show_in_graphql": 1,
+                                                "default_value": "Contact Us",
+                                                "maxlength": "",
+                                                "placeholder": "",
+                                                "prepend": "",
+                                                "append": ""
+                                            },
+                                            {
+                                                "key": "field_64ec62be57ba0",
+                                                "label": "Footer 3rd Btns",
+                                                "name": "footer_4th_btnsfooter_3rd_btns",
+                                                "aria-label": "",
+                                                "type": "repeater",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "show_in_graphql": 1,
+                                                "layout": "table",
+                                                "min": 0,
+                                                "max": 0,
+                                                "collapsed": "",
+                                                "button_label": "Add Row",
+                                                "rows_per_page": 20,
+                                                "sub_fields": [
+                                                    {
+                                                        "key": "field_64ec62be57ba1",
+                                                        "label": "info",
+                                                        "name": "info",
+                                                        "aria-label": "",
+                                                        "type": "text",
+                                                        "instructions": "",
+                                                        "required": 0,
+                                                        "conditional_logic": 0,
+                                                        "wrapper": {
+                                                            "width": "",
+                                                            "class": "",
+                                                            "id": ""
+                                                        },
+                                                        "show_in_graphql": 1,
+                                                        "default_value": "",
+                                                        "maxlength": "",
+                                                        "placeholder": "",
+                                                        "prepend": "",
+                                                        "append": "",
+                                                        "parent_repeater": "field_64ec62be57ba0"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "min": "",
+                                        "max": ""
+                                    }
+                                },
+                                "min": "",
+                                "max": "",
+                                "button_label": "Add Row"
+                            },
+                            {
+                                "key": "field_64ec63ea7166a",
+                                "label": "Footer bar text",
+                                "name": "footer_bar_text",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "default_value": "Copyright 2023, Xomacs.com All Rights Reserved.",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": ""
+                            },
+                            {
+                                "key": "field_64eef3ee2f533",
+                                "label": "Footer Bg Img",
+                                "name": "footer_bg_img",
+                                "aria-label": "",
+                                "type": "image",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "return_format": "url",
+                                "library": "all",
+                                "min_width": "",
+                                "min_height": "",
+                                "min_size": "",
+                                "max_width": "",
+                                "max_height": "",
+                                "max_size": "",
+                                "mime_types": "",
+                                "preview_size": "medium"
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    }
+                },
+                "min": "",
+                "max": "",
+                "button_label": "Add Row"
+            },
+            {
+                "key": "field_64ec76d7a0aeb",
+                "label": "Colors Standard Repeater",
+                "name": "colors_standard",
+                "aria-label": "",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "show_in_graphql": 1,
+                "layout": "table",
+                "pagination": 0,
+                "min": 0,
+                "max": 0,
+                "collapsed": "",
+                "button_label": "Add Row",
+                "rows_per_page": 20,
+                "sub_fields": [
+                    {
+                        "key": "field_64ec7717a0aec",
+                        "label": "Colors Standard",
+                        "name": "colors_standard",
+                        "aria-label": "",
+                        "type": "color_picker",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "show_in_graphql": 1,
+                        "default_value": "#2CD87F",
+                        "enable_opacity": 0,
+                        "return_format": "string",
+                        "parent_repeater": "field_64ec76d7a0aeb"
+                    },
+                    {
+                        "key": "field_64ec7736a0aed",
+                        "label": "Colors Standard Title",
+                        "name": "colors_standard_title",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "show_in_graphql": 1,
+                        "default_value": "Primary Color",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "parent_repeater": "field_64ec76d7a0aeb"
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "page"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "the_content"
+        ],
+        "active": true,
+        "description": "",
+        "show_in_rest": 0,
+        "show_in_graphql": 1,
+        "graphql_field_name": "pageBuilders"
+    }
+]
