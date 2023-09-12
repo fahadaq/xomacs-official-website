@@ -1,30 +1,101 @@
+// /**
+//  * Configure your Gatsby site with this file.
+//  *
+//  * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/
+//  */
+
+// /**
+//  * @type {import('gatsby').GatsbyConfig}
+//  */
+// module.exports = {
+//   siteMetadata: {
+//     title: `Xomacs`,
+//     description: `Leading the Digital Revolution`,
+//     author: `@aishakhan0925`,
+//     siteUrl: `https://dev.xomacs.com`,
+//   },
+//   plugins: [
+//     `gatsby-plugin-image`,
+//     {
+//       resolve: `gatsby-source-filesystem`,
+//       options: {
+//         name: `images`,
+//         path: `${__dirname}/src/images`,
+//       },
+//     },
+//     `gatsby-transformer-sharp`,
+//     `gatsby-plugin-sharp`,
+//     {
+//       resolve: `gatsby-plugin-manifest`,
+//       options: {
+//         name: `gatsby-starter-default`,
+//         short_name: `starter`,
+//         start_url: `/`,
+//         background_color: `#663399`,
+//         // This will impact how browsers show your PWA/website
+//         // https://css-tricks.com/meta-theme-color-and-trickery/
+//         // theme_color: `#663399`,
+//         display: `minimal-ui`,
+//         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+//       },
+//     },
+//   ],
+// }
+
+
+
+
+
+
+
+
 /**
  * Configure your Gatsby site with this file.
  *
  * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/
  */
 
-/**
- * @type {import('gatsby').GatsbyConfig}
- */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Xomacs`,
+    description: `Leading the Digital Revolution`,
+    author: `@aishakhan0925`,
+    siteUrl: `https://dev.xomacs.com`,
   },
   plugins: [
-    `gatsby-plugin-image`,
+    `gatsby-plugin-postcss`,
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: `gatsby-plugin-sharp`,
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        defaults: {
+          formats: [`auto`, `webp`],
+          placeholder: `dominantColor`,
+          quality: 50,
+          breakpoints: [750, 1080, 1366, 1920],
+          backgroundColor: `transparent`,
+          tracedSVGOptions: {},
+          blurredOptions: {},
+          jpgOptions: {},
+          pngOptions: {},
+          webpOptions: {},
+          avifOptions: {},
+        },
+      },
+    },
+    {
+      resolve: "gatsby-source-wordpress",
+      options: {
+        url: "https://dev.xomacs.com/graphql",
+        schema: {
+          queryDepth: 5,
+          circularQueryLimit: 2,
+        },
       },
     },
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -39,5 +110,13 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    "gatsby-plugin-react-helmet",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "images",
+        path: `${__dirname}/src/images`,
+      },
+    },
   ],
-}
+};
